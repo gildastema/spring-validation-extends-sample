@@ -1,0 +1,17 @@
+### Send POST request with json body
+POST http://localhost:8080/api/match
+Content-Type: application/json
+
+{
+  "password": "123456789",
+  "password_confirmation": "123456789"
+}
+
+
+### Send POST request with json body
+POST http://localhost:8080/api/unique
+Content-Type: application/json
+
+{
+  "name": "kik"
+}
